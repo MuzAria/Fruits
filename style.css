@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="container"]{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body{
+    background: #a700fa;
+    background: linear-gradient(90deg, rgba(255, 66, 255, 0.899) 45%, rgba(247, 247, 247, 1) 45%);
+    font-family: sans-serif;
+}
+
+
+/* header header header */
+
+.header_container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header_h2{
+    font-size: 3rem;
+    color: rgba(255, 66, 255, 0.899);
+    text-align: right;
+    position: absolute;
+    right: 530px;
+    top: 8vh;
+}
+
+.header_p{
+    font-size: 1.2rem;
+    color: rgba(255, 66, 255, 0.899);
+    text-align: right;
+    position: absolute;
+    right: 477px;
+    top: 17vh;
+}
+
+
+/* section section section */
+
+.section_img{
+    width: 800px;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+.section_paragraph{
+    margin-left: 600px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.paragraph_h3{
+    color: rgba(255, 66, 255, 0.899);
+    font-size: 22px;
+}
+
+.paragraph_text{
+    max-width: 490px;
+    font-size: 17px;
+}
+
+.clr{
+    color: rgba(255, 66, 255, 0.899);
+}
+
+.icon_img{
+    width: 200px;
+    transform: translate(100px, -200px);
+}
+
+.sec_btn{
+    max-width: 120px;
+    margin-left: 350px;
+    border: transparent;
+    padding: 15px;
+    background-color: rgba(255, 66, 255, 0.899);
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+
+
+/* main main main */
+
+.main_pic{
+    background-image: url(img/raspberry-passion-fruit-cocktail-2000-682a02bf841d4415aa1bfef5b1dfe204.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.main_black{
+    background-color: #000000ac;
+    height: 70vh;
+    width: 480px;
+    margin-left: 523.5px;
+    padding: 75px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main_h2{
+    font-size: 2rem;
+    color: #dddddd;
+    font-weight: 100;
+}
+
+.main_one, .main_two{
+    color: #dddddd;
+    font-size: 1.1rem;
+}
+
+.main_colls{
+    background-color: #000000ac;
+    width: 523.5px;
+    height: 390px;
+    margin-top: 60px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.m_text_h2{
+    color: #dddddd;
+    font-size: 2.2rem;
+}
+
+.m_text_p{
+    color: #dddddd;
+    font-size: 1.1rem;
+}
+
+.main_btn{
+    width: 100px;
+    margin-left: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: transparent;
+    background-color: #fff;
+    color: rgba(255, 66, 255, 0.899);
+    font-size: 14px;
+}
+
+.main_text{
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+}
+
+.main_ico{
+    width: 120px;
+    margin-top: 180px;
+}
+
+.rew_h2{
+    text-align: center;
+    font-weight: 100;
+    color: black;
+}
+
+.rew_p{
+    text-align: center;
+    color: grey;
+}
+
+.main_wer{
+    box-shadow: 0px 0px 10px 2px rgb(234, 234, 234);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 5px;
+    margin-left: -25px;
+}
+
+.main_rew{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.m_hr{
+    margin-left: 143.5px;
+    margin-top: 100px;
+    color: #797979;
+}
+
+
+
+/* info info info */
+
+.info_read{
+    background-color: #ffffffae;
+    width: 380px;
+    height: 58.5vh;
+    margin-top: 55px;
+    margin-left: 143.5px;
+    padding-left: 55px;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.aw{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    padding-left: 12.5px;
+    padding-top: 16.5px;
+    border-radius: 50%;
+}
+
+.some{
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    padding-left: 14px;
+    padding-top: 17px;
+    border-radius: 50%;
+}
+
+.in{
+    color: #1c1c1ccd;
+    margin-top: 20px;
+}
+.fo{
+    color: #1c1c1ccd;
+    margin-top: 18px;
+}
+.io{
+    color: #1c1c1ccd;
+    max-width: 200px;
+}
+
+.phone, .e-mail, .location{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.info_container{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.info_write{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.in_name{
+    padding: 8px;
+    width: 260px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    font-size: 1.2rem
+}
+.in_mail{
+    padding: 8px;
+    width: 260px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    font-size: 1.2rem
+}
+.area{
+    max-width: 260px;
+    min-height: 150px;
+    padding: 10px;
+    border-bottom: 3px solid gray;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(114, 114, 114);
+}
+
+.in_btn{
+    padding-top: 9px;
+    padding-left: 22px;
+    padding-bottom: 9px;
+    padding-right: 22px;
+    font-size: 15px;
+    border: 1.5px solid rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
+    background-color: transparent;
+    width: 100px;
+    margin-left: 160px;
+}
+
+
+/* footer footer footer */
+
+.footer_left{
+    font-size: 18px;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: sticky;
+    
+}
+
+.write_1{
+    color: #fff;
+    max-width: 310px;
+    margin-left: 145px;
+}
+
+.write_2{
+    color: #fff;
+    max-width: 300px;
+    margin-left: 145px;
+}
+
+.footer_container{
+    height: 47vh;
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
+
+.face{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 66, 255, 0.899);
+    padding-left: 17.5px;
+    padding-top: 14px;
+    border-radius: 50%;
+}
+
+.twit{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 66, 255, 0.899);
+    padding-left: 15.5px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+.ins{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 66, 255, 0.899);
+    padding-left: 16px;
+    padding-top: 15.5px;
+    border-radius: 50%;
+}
+
+.google{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 66, 255, 0.899);
+    padding-left: 13.5px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+.right{
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    gap: 22vh;
+}
+
+.span_1{
+    color: #1c1c1ccd;
+    font-size: 18px;
+}
+
+.span_2{
+    color: red;
+    font-size: 12px;
+    margin-left: 1200px;
+}
